@@ -27,7 +27,7 @@ def draw_cat_plot():
 
 
     # 6
-    #df_cat = None
+    
     
 
     # 7
@@ -77,7 +77,7 @@ def draw_heat_map():
     fig, ax = plt.subplots(figsize=(12, 12))
 
     # 15
-    sns.heatmap(corr, annot=True, fmt=".1f", ax=ax, mask=mask, square=True, linewidths=.5, cbar_kws={'shrink': 0.5},center=0)
+    sns.heatmap(corr, annot=True, fmt=".1f", ax=ax, mask=mask, square=True, linewidths=.5, center=0)
     ax.set_title('Correlation Heatmap')
 
 
